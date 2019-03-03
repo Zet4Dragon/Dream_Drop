@@ -12,7 +12,9 @@ namespace Dream_Drop {
 		virtual ~App();
 
 		//Functions
-		void test_run();
+		void run();
 	};
 
+	//Defined by client
+	App* AppCreate();
 }

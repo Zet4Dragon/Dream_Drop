@@ -12,7 +12,7 @@ namespace Dream_Drop {
 	}
 
 	//Functions
-	void App::test_run() {
+	void App::run() {
 		while(true);
 	}
 }

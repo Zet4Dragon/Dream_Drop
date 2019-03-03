@@ -56,7 +56,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>DD_PLATFORM_WINDOWS;DREAMDROP_BUILD_DLL_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DD_PLATFORM_WINDOWS;DREAMDROP_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -67,7 +67,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <PreprocessorDefinitions>DD_PLATFORM_WINDOWS;DREAMDROP_BUILD_DLL_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>DD_PLATFORM_WINDOWS;DREAMDROP_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -77,6 +77,7 @@
   <ItemGroup>
     <ClInclude Include="source\Dream_Drop.h" />
     <ClInclude Include="source\Dream_Drop\App.h" />
+    <ClInclude Include="source\Dream_Drop\Entry_Point.h" />
     <ClInclude Include="source\Dream_Drop\Gist.h" />
   </ItemGroup>
   <ItemGroup>
